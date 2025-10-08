@@ -67,7 +67,7 @@ export class TorrentSource {
 
 export class NZBorURLSource {
   test: () => Promise<boolean>
-  search: (hash: string, options?: {
+  query: (hash: string, options?: {
     [key: string]: {
       type: 'string' | 'number' | 'boolean'
       description: string

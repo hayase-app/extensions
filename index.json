@@ -32,7 +32,7 @@
   {
     "name": "AnimeTosho",
     "id": "animetosho-nzb",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "nzb",
     "accuracy": "high",
     "ratio": 0,
@@ -42,6 +42,33 @@
     ],
     "icon": "https://animetosho.org/inc/favicon.ico",
     "update": "gh:hayase-app/extensions",
-    "code": "gh:hayase-app/extensions/animetosho-nzb"
+    "code": "gh:hayase-app/extensions/animetosho-nzb",
+    "options": {
+      "domain": {
+        "type": "string",
+        "description": "Provider Domain",
+        "default": "news.example.com"
+      },
+      "port": {
+        "type": "number",
+        "description": "Provider Port",
+        "default": 119
+      },
+      "username": {
+        "type": "string",
+        "description": "Provider Username",
+        "default": "mail@example.com"
+      },
+      "password": {
+        "type": "string",
+        "description": "Provider Password, this is stored unencrypted on your drive",
+        "default": "password"
+      },
+      "poolSize": {
+        "type": "number",
+        "description": "Connection Pool Size",
+        "default": 5
+      }
+    }
   }
 ]
