@@ -1,17 +1,12 @@
 [
   {
-    "name": "AnimeTosho MultiSub",
+    "name": "",
     "id": "animetosho-multi",
-    "version": "0.0.2",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "sub",
-    "languages": [
-      "ALL"
-    ],
-    "icon": "https://animetosho.org/inc/favicon.ico",
-    "update": "gh:hayase-app/extensions/multi",
-    "code": "gh:hayase-app/extensions/multi/animetosho"
+    "version": "0.0.3",
+    "type": "",
+    "accuracy": "",
+    "icon": "",
+    "update": "npm:hayase-extensions/multi",
+    "code": "npm:hayase-extensions/multi/animetosho"
   }
 ]

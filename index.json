@@ -1,74 +1,33 @@
 [
   {
-    "name": "Seadex",
+    "name": "",
     "id": "seadex",
-    "version": "0.0.2",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "sub",
-    "languages": [
-      "US"
-    ],
-    "icon": "https://releases.moe/favicon.png",
-    "update": "gh:hayase-app/extensions",
-    "code": "gh:hayase-app/extensions/seadex"
-  },
-  {
-    "name": "AnimeTosho",
-    "id": "animetosho",
-    "version": "0.0.7",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "sub",
-    "languages": [
-      "US"
-    ],
-    "icon": "https://animetosho.org/inc/favicon.ico",
-    "update": "gh:hayase-app/extensions",
-    "code": "gh:hayase-app/extensions/animetosho"
-  },
-  {
-    "name": "AnimeTosho",
-    "id": "animetosho-nzb",
     "version": "0.0.3",
-    "type": "nzb",
-    "accuracy": "high",
+    "type": "",
+    "accuracy": "",
     "ratio": 0,
-    "media": "sub",
-    "languages": [
-      "US"
-    ],
-    "icon": "https://animetosho.org/inc/favicon.ico",
-    "update": "gh:hayase-app/extensions",
-    "code": "gh:hayase-app/extensions/animetosho-nzb",
-    "options": {
-      "domain": {
-        "type": "string",
-        "description": "Provider Domain",
-        "default": "news.example.com"
-      },
-      "port": {
-        "type": "number",
-        "description": "Provider Port",
-        "default": 119
-      },
-      "username": {
-        "type": "string",
-        "description": "Provider Username",
-        "default": "mail@example.com"
-      },
-      "password": {
-        "type": "string",
-        "description": "Provider Password, this is stored unencrypted on your drive",
-        "default": "password"
-      },
-      "poolSize": {
-        "type": "number",
-        "description": "Connection Pool Size",
-        "default": 5
-      }
-    }
+    "icon": "",
+    "update": "npm:hayase-extensions",
+    "code": "npm:hayase-extensions/seadex"
+  },
+  {
+    "name": "",
+    "id": "animetosho",
+    "version": "0.0.8",
+    "type": "",
+    "accuracy": "",
+    "icon": "",
+    "update": "npm:hayase-extensions",
+    "code": "npm:hayase-extensions/animetosho"
+  },
+  {
+    "name": "",
+    "id": "animetosho-nzb",
+    "version": "0.0.4",
+    "type": "",
+    "accuracy": "",
+    "icon": "",
+    "update": "npm:hayase-extensions",
+    "code": "npm:hayase-extensions/animetosho-nzb"
   }
 ]

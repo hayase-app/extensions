@@ -1,32 +1,22 @@
 [
   {
-    "name": "Seadex Dubs",
+    "name": "",
     "id": "seadex-dub",
-    "version": "0.0.1",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "dub",
-    "languages": [
-      "US"
-    ],
-    "icon": "https://releases.moe/favicon.png",
-    "update": "gh:hayase-app/extensions/dub",
-    "code": "gh:hayase-app/extensions/dub/seadex"
+    "version": "0.0.2",
+    "type": "",
+    "accuracy": "",
+    "icon": "",
+    "update": "npm:hayase-extensions/dub",
+    "code": "npm:hayase-extensions/dub/seadex"
   },
   {
-    "name": "AnimeTosho Dubs",
+    "name": "",
     "id": "animetosho-dub",
-    "version": "0.0.2",
-    "type": "torrent",
-    "accuracy": "high",
-    "ratio": 0,
-    "media": "dub",
-    "languages": [
-      "US"
-    ],
-    "icon": "https://animetosho.org/inc/favicon.ico",
-    "update": "gh:hayase-app/extensions/dub",
-    "code": "gh:hayase-app/extensions/dub/animetosho"
+    "version": "0.0.3",
+    "type": "",
+    "accuracy": "",
+    "icon": "",
+    "update": "npm:hayase-extensions/dub",
+    "code": "npm:hayase-extensions/dub/animetosho"
   }
 ]
